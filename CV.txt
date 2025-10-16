@@ -1,0 +1,281 @@
+#set page(
+  margin: (x: 1.5cm, y: 1.5cm),
+)
+
+#set text(
+  font: "New Computer Modern",
+  size: 9.5pt,
+  fill: rgb("#2C3E50")
+)
+
+#set par(justify: true, leading: 0.6em)
+
+// Helper function for blue boxes
+#let bluebox(content) = {
+  block(
+    width: 100%,
+    fill: rgb("#E8EDF5"),
+    inset: 12pt,
+    radius: 4pt,
+    content
+  )
+}
+
+// Header with photo placeholder
+#block(
+  fill: rgb("#F5F7FA"),
+  width: 100%,
+  inset: 0pt,
+)[
+  #grid(
+    columns: (1fr, 140pt),
+    gutter: 20pt,
+    
+    // Left side - Name and title
+    [
+      #block(
+        fill: rgb("#E8EDF5"),
+        width: 100%,
+        inset: (x: 20pt, y: 15pt),
+        radius: (top-left: 0pt, bottom-right: 80pt),
+      )[
+        #text(size: 32pt, weight: "bold", fill: rgb("#5B6FA8"))[MICHAEL MOORE]
+        
+        #line(length: 280pt, stroke: 3pt + rgb("#5B6FA8"))
+        
+        #v(0.3em)
+        
+        #text(size: 13pt, fill: rgb("#5B6FA8"))[Tech Lead IT/Finance de marché]
+      ]
+    ],
+    
+    // Right side - Photo placeholder
+    [
+      #v(10pt)
+      #align(right)[
+        #circle(
+          radius: 70pt,
+          fill: rgb("#5B6FA8"),
+          stroke: 3pt + white,
+          [#align(center + horizon)[
+            #text(fill: white, size: 11pt)[PHOTO]
+          ]]
+        )
+      ]
+    ]
+  )
+]
+
+#v(0.8em)
+
+// Subtitle
+#align(center)[
+  #text(size: 13pt, fill: rgb("#5B6FA8"), style: "italic")[
+    Expert technique doté d'un background en finance de marché et avec un historique éprouvé \
+    de succès sur des projets critiques
+  ]
+]
+
+#v(1.2em)
+
+// Two column layout for main content
+#grid(
+  columns: (47%, 53%),
+  gutter: 15pt,
+  
+  // LEFT COLUMN
+  [
+    // Technical Skills
+    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
+    #v(0.4em)
+    
+    *Architecture & Design:* Conception d'architectures applicatives modulaires, modélisation d'APIs REST, conception de bases de données relationnelles, structuration logique du code
+    
+    *Base de Données:* SQL Server, ElasticSearch. Modélisation, optimisation, stratégie d'indexation
+    
+    *Langages & Frameworks:* C\# (.NET Core), Angular
+    
+    *Méthodologies:* Agile (Scrum Master), DDD, TDD
+    
+    *CI/CD & DevOps:* Azure DevOps, Git
+    
+    *Gouvernance & Documentation:* Bonnes pratiques d'architecture, documentation technique, normalisation OpenAPI/Swagger
+    
+    #v(1.2em)
+    
+    #line(length: 100%, stroke: 1pt + rgb("#D0D8E8"))
+    
+    #v(0.8em)
+    
+    // Financial Skills
+    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
+    #v(0.4em)
+    
+    *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)
+    
+    *ESG & Réglementation:* Intégration des critères ESG, conformité aux normes ISR (Label français), SFDR (UE), gestion des données extra-financières
+    
+    *Référentiels & Données:* Conception et gouvernance de data hubs métier (produits, portefeuilles, instruments)
+    
+    *Produits Financiers:* actions, obligations, dérivés listés (options, futures)
+    
+    *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
+    
+    *Outils Métier:* Bloomberg, BlackRock Aladdin
+  ],
+  
+  // RIGHT COLUMN
+  [
+    // Recent Missions
+    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[DERNIÈRES MISSIONS]
+    #v(0.5em)
+    
+    #bluebox[
+      #text(weight: "bold", fill: rgb("#5B6FA8"))[La Banque Postale ASSET MANAGEMENT]
+      - Projet Data Hub (Tech Lead)
+      - Projet ISR (Tech Lead)
+    ]
+    
+    #v(0.5em)
+    
+    #bluebox[
+      #text(weight: "bold", fill: rgb("#5B6FA8"))[BNP Paribas ASSET MANAGEMENT]
+      - Projet New Data Referential (Tech Lead)
+      - Migration BlackRock Aladdin
+    ]
+    
+    #v(1em)
+    
+    // Formation
+    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[FORMATION]
+    #v(0.5em)
+    
+    #bluebox[
+      #text(weight: "bold", fill: rgb("#5B6FA8"))[Université Paris Dauphine]
+      - Master Finance
+      
+      #v(0.3em)
+      
+      #text(weight: "bold", fill: rgb("#5B6FA8"))[ESLSCA Paris]
+      - Master Finance de marché
+    ]
+    
+    #v(1em)
+    
+    // Contact
+    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COORDONNÉES]
+    #v(0.5em)
+    
+    Téléphone : 06 82 03 76 08
+    
+    E-mail : mooremichaelrr\@gmail.com
+  ]
+)
+
+#pagebreak()
+
+// PAGE 2
+#v(1em)
+
+#text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[MISSIONS CLÉS]
+#v(0.8em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[Mirova (Janvier 2025 - Aujourd'hui)]
+#v(0.3em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
+
+- Conception et mise en place d'une architecture technique évolutive pour les projets à venir (DataHub, DataMart, projets d'IA)
+- Définition des modules applicatifs et des flux de données
+- Choix des briques d'infrastructure et des technologies associées
+- Développement des composants socles réutilisables (modèles de données, services d'accès, API internes)
+
+#v(1em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[La Banque Postale Asset Management (Septembre 2021 - Aujourd'hui)]
+#v(0.3em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
+
+Dans le cade du rapprochement avec Ostrum et de la migration vers leur outils OMS/PMS:
+- Modélisation du nouveau référentiel central du SI LBPAM
+- Design des flux de données
+- Conception des APIs
+- Design d'un Data Mart et d'un outil de contrôle
+- Design et implémentation d'écrans de visualisation et de recherche de données
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[LEADER TECHNIQUE EQUIPE DE DEVELOPPEMENT]
+
+Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
+- Cadrage des développements, accompagnement des équipes, validation technique des livrables
+- Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
+- Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET ISR]
+
+Refonte de l'outil stratégique d'analyse ISR:
+- Refonte complète de l'architecture applicative : interactions back-end / front-end, découplage des couches
+- Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
+- Modernisation technique et amélioration des performances
+
+#v(1em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[BNP Paribas Asset Management (Novembre 2016 - Septembre 2021)]
+#v(0.3em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
+
+Création et migration vers un nouveau référentiel de donnée in-house (produits, portefeuilles)
+- Architecture et chiffrage du projet
+- Modélisation
+- Conception de la stratégie de migration
+- Conception et implémentation (full-stack) d'écrans consultés par 800 utilisateurs
+- Coordination des développements et leader technique dans une équipe de 10 personnes
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[PROJET CONVERGENCE / BLACKROCK ALADDIN (2018-2019)]
+
+Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la platforme Aladdin de BlackRock, migration de 4 applications front-office :
+- Migration des jobs d'import de données sources
+- Développement des interfaces avec l'API d'Aladdin
+- Etablissement des process target avec les équipes de gestion et de risk management
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD APPLICATION QUANTA (2018)]
+
+Création d'une nouvelle application permettant aux gérants multi-asset d'optimiser automatiquement leurs portefeuilles avec des outils quant
+- Architecture de la solution en collaboration avec les équipes Quant
+- Design et implémentation des premiers écrans (Full-stack Dotnet Core / Angular 2)
+
+#v(1.5em)
+
+#text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[AUTRES EXPERIENCES]
+#v(0.8em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[MONTPENSIER FINANCE – PARIS (2014): ASSISTANT GÉRANT]
+
+- Prise en charge des opérations sur le cash equity, produits dérivés, opérations de change
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[OTCEX –HONG KONG (2013): JUNIOR BROKER OPTIONS]
+
+- Développement d'outils pour les brokers (pricer d'options, analyse de liquidité...)
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[AXA IM - PARIS (2012) : ASSISTANT TRADER]
+
+- Développement de divers outils pour les tables de négociation (Pricer CDS, reporting...)
+
+#v(0.5em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[INGENSOMA TRADING GROUP - SEOUL (2011): JUNIOR TRADER OPTIONS]
+
+- Arbitrage de volatilité sur les options KOSPI, développement d'une stratégie d'arbitrage sur les warrants, production de quotes (bid ask) pour les contreparties

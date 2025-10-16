@@ -115,18 +115,16 @@
     // Financial Skills
     #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
     #v(0.4em)
-        
-    *Produits Equity:* Options (« Grecques », volatilité, skew, structure à terme, risques), Futures, Warrants, Cash Equity
-
-    *Produits Crédit:* CDS, Obligations
-
-    *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)
     
-    *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
+    *Produits Equity :* Actions, options (« Grecques », volatilité, skew, structure à terme), futures, warrants — valorisation, expositions et gestion des risques.
     
-    *Outils Métier:* Bloomberg, BlackRock Aladdin
+    *Produits Crédit :* CDS, obligations.
     
-    *ESG & Réglementation:* Intégration des critères ESG, conformité aux normes ISR (Label français), SFDR (UE), gestion des données extra-financières
+    *Gestion d’Actifs :* Référentiels de fonds et mandats (produits, portefeuilles)
+    
+    *ESG & Réglementation :* Intégration des critères ESG, conformité ISR (Label français) et SFDR (UE), gestion des données extra-financières.
+    
+    *Outils Métier :* Bloomberg, BlackRock Aladdin.
   ],
   
   // RIGHT COLUMN - One unified blue background box
@@ -228,7 +226,7 @@ Refonte de l'outil stratégique d'analyse ISR:
 
 #v(1.5em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (Janvier 2025 - Aujourd'hui - en parrallèle à la mission chez LBPAM)]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (Janvier 2025 - Aujourd'hui - intervention en parallèle)]
 #v(0.3em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]

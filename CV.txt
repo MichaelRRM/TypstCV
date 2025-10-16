@@ -91,17 +91,18 @@
     #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
     #v(0.4em)
     
-    *Architecture & Design:* Conception d'architectures applicatives modulaires, modélisation d'APIs REST, conception de bases de données relationnelles, structuration logique du code
+    *Langages:* C\#, Typescript
+
+    *Frameworks .NET:* .ASP.NET Core, Entity Framework, WCF, VSTO
+
+    *Frameworks JS:* Angular, rxjs, Redux (ngrx) 
     
     *Base de Données:* SQL Server, ElasticSearch. Modélisation, optimisation, stratégie d'indexation
-    
-    *Langages & Frameworks:* C\# (.NET Core), Angular
     
     *Méthodologies:* Agile (Scrum Master), DDD, TDD
     
     *CI/CD & DevOps:* Azure DevOps, Git
     
-    *Gouvernance & Documentation:* Bonnes pratiques d'architecture, documentation technique, normalisation OpenAPI/Swagger
     
     #v(1.2em)
     

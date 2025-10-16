@@ -39,7 +39,7 @@
         inset: (x: 20pt, y: 18pt, top: 25pt),
         radius: (top-left: 0pt, bottom-right: 80pt),
       )[
-        #text(size: 28pt, weight: "bold", fill: rgb("#5B73B8"))[MICHAEL \ MOORE]
+        #text(size: 28pt, weight: "bold", fill: rgb("#5B73B8"))[MICHAEL MOORE]
         
         #v(0.5em)
         
@@ -214,7 +214,11 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
 - Modernisation technique et amélioration des performances
 
-#v(1em)
+#v(1.5em)
+
+#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
+
+#v(1.5em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (Janvier 2025 - Aujourd'hui - en parrallèle à la mission chez LBPAM)]
 #v(0.3em)
@@ -226,7 +230,11 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Sélection et mise en œuvre des briques d'infrastructure et des technologies associées
 - Développement personnel des composants socles réutilisables (modèles de données, services d'accès, API internes)
 
-#v(1em)
+#v(1.5em)
+
+#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
+
+#v(1.5em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[BNP Paribas Asset Management (Novembre 2016 - Septembre 2021)]
 #v(0.3em)
@@ -259,9 +267,9 @@ Création d'une nouvelle application permettant aux gérants multi-asset d'optim
 
 #v(1.5em)
 
-#pagebreak()
+#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
 
-// PAGE 2
+#v(1.5em)
 
 #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[AUTRES EXPERIENCES]
 #v(0.8em)

@@ -3,9 +3,9 @@
 )
 
 #set text(
-  font: "New Computer Modern",
+  font: "Libertinus Sans",
   size: 9.5pt,
-  fill: rgb("#2C3E50")
+  fill: rgb("#5B6FA8")
 )
 
 #set par(justify: true, leading: 0.6em)
@@ -14,7 +14,7 @@
 #let bluebox(content) = {
   block(
     width: 100%,
-    fill: rgb("#E8EDF5"),
+    fill: rgb("#E3E9F3"),
     inset: 12pt,
     radius: 4pt,
     content
@@ -34,18 +34,20 @@
     // Left side - Name and title
     [
       #block(
-        fill: rgb("#E8EDF5"),
+        fill: rgb("#E3E9F3"),
         width: 100%,
-        inset: (x: 20pt, y: 15pt),
+        inset: (x: 20pt, y: 18pt, top: 25pt),
         radius: (top-left: 0pt, bottom-right: 80pt),
       )[
-        #text(size: 32pt, weight: "bold", fill: rgb("#5B6FA8"))[MICHAEL MOORE]
+        #text(size: 28pt, weight: "bold", fill: rgb("#5B73B8"))[MICHAEL \ MOORE]
         
-        #line(length: 280pt, stroke: 3pt + rgb("#5B6FA8"))
+        #v(0.5em)
         
-        #v(0.3em)
+        #line(length: 280pt, stroke: 3pt + rgb("#5B73B8"))
         
-        #text(size: 13pt, fill: rgb("#5B6FA8"))[Tech Lead IT/Finance de marché]
+        #v(0.5em)
+        
+        #text(size: 11pt, fill: rgb("#5B73B8"))[Tech Lead IT/Finance de marché]
       ]
     ],
     
@@ -55,7 +57,7 @@
       #align(right)[
         #circle(
           radius: 70pt,
-          fill: rgb("#5B6FA8"),
+          fill: rgb("#5B73B8"),
           stroke: 3pt + white,
           [#align(center + horizon)[
             #text(fill: white, size: 11pt)[PHOTO]
@@ -68,9 +70,9 @@
 
 #v(0.8em)
 
-// Subtitle
+// Subtitle - make it more visible
 #align(center)[
-  #text(size: 13pt, fill: rgb("#5B6FA8"), style: "italic")[
+  #text(size: 10pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
     Expert technique doté d'un background en finance de marché et avec un historique éprouvé \
     de succès sur des projets critiques
   ]
@@ -180,19 +182,9 @@
 #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[MISSIONS CLÉS]
 #v(0.8em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[Mirova (Janvier 2025 - Aujourd'hui)]
-#v(0.3em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
-
-- Conception et mise en place d'une architecture technique évolutive pour les projets à venir (DataHub, DataMart, projets d'IA)
-- Définition des modules applicatifs et des flux de données
-- Choix des briques d'infrastructure et des technologies associées
-- Développement des composants socles réutilisables (modèles de données, services d'accès, API internes)
-
 #v(1em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[La Banque Postale Asset Management (Septembre 2021 - Aujourd'hui)]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[La Banque Postale Asset Management (Septembre 2021 - Aujourd'hui)]
 #v(0.3em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
@@ -224,7 +216,19 @@ Refonte de l'outil stratégique d'analyse ISR:
 
 #v(1em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 10.5pt)[BNP Paribas Asset Management (Novembre 2016 - Septembre 2021)]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (Janvier 2025 - Aujourd'hui - en parrallèle à la mission chez LBPAM)]
+#v(0.3em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
+
+- Conception et développement d'une architecture technique évolutive pour les projets à venir (DataHub, DataMart, projets d'IA)
+- Définition et implémentation des modules applicatifs et des flux de données
+- Sélection et mise en œuvre des briques d'infrastructure et des technologies associées
+- Développement personnel des composants socles réutilisables (modèles de données, services d'accès, API internes)
+
+#v(1em)
+
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[BNP Paribas Asset Management (Novembre 2016 - Septembre 2021)]
 #v(0.3em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
@@ -254,6 +258,10 @@ Création d'une nouvelle application permettant aux gérants multi-asset d'optim
 - Design et implémentation des premiers écrans (Full-stack Dotnet Core / Angular 2)
 
 #v(1.5em)
+
+#pagebreak()
+
+// PAGE 2
 
 #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[AUTRES EXPERIENCES]
 #v(0.8em)

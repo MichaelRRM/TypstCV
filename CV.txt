@@ -14,7 +14,7 @@
 #let bluebox(content) = {
   block(
     width: 100%,
-    fill: rgb("#E3E9F3"),
+    fill: rgb("#D8E3F0"),
     inset: 12pt,
     radius: 4pt,
     content
@@ -119,58 +119,59 @@
     
     *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
     
-    *ESG & Réglementation:* Intégration des critères ESG, conformité aux normes ISR (Label français), SFDR (UE), gestion des données extra-financières
-    
-    *Référentiels & Données:* Conception et gouvernance de data hubs métier (produits, portefeuilles, instruments)
-    
     *Outils Métier:* Bloomberg, BlackRock Aladdin
   ],
   
-  // RIGHT COLUMN
+  // RIGHT COLUMN - One unified blue background box
   [
-    // Recent Missions
-    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[DERNIÈRES MISSIONS]
-    #v(0.5em)
-    
-    #bluebox[
-      #text(weight: "bold", fill: rgb("#5B6FA8"))[La Banque Postale ASSET MANAGEMENT]
+    #block(
+      width: 100%,
+      fill: rgb("#E8EEF7"),
+      inset: 15pt,
+      radius: 4pt,
+    )[
+      // Recent Missions
+      #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[DERNIÈRES MISSIONS]
+      #v(0.5em)
+      
+      #text(weight: "bold", fill: rgb("#5B73B8"))[La Banque Postale ASSET MANAGEMENT]
       - Projet Data Hub (Tech Lead)
       - Projet ISR (Tech Lead)
-    ]
-    
-    #v(0.5em)
-    
-    #bluebox[
-      #text(weight: "bold", fill: rgb("#5B6FA8"))[BNP Paribas ASSET MANAGEMENT]
+      
+      #v(0.5em)
+      
+      #text(weight: "bold", fill: rgb("#5B73B8"))[BNP Paribas ASSET MANAGEMENT]
       - Projet New Data Referential (Tech Lead)
       - Migration BlackRock Aladdin
-    ]
-    
-    #v(1em)
-    
-    // Formation
-    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[FORMATION]
-    #v(0.5em)
-    
-    #bluebox[
-      #text(weight: "bold", fill: rgb("#5B6FA8"))[Université Paris Dauphine]
+      
+      #v(0.8em)
+      #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
+      #v(0.8em)
+      
+      // Formation
+      #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[FORMATION]
+      #v(0.5em)
+      
+      #text(weight: "bold", fill: rgb("#5B73B8"))[Université Paris Dauphine]
       - Master Finance
       
       #v(0.3em)
       
-      #text(weight: "bold", fill: rgb("#5B6FA8"))[ESLSCA Paris]
+      #text(weight: "bold", fill: rgb("#5B73B8"))[ESLSCA Paris]
       - Master Finance de marché
+      
+      #v(0.8em)
+      #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
+      #v(0.8em)
+      
+      // Contact
+      #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COORDONNÉES]
+      #v(0.5em)
+      
+      Téléphone : 06 82 03 76 08
+      
+      E-mail : mooremichaelrr\@gmail.com
     ]
-    
-    #v(1em)
-    
-    // Contact
-    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COORDONNÉES]
-    #v(0.5em)
-    
-    Téléphone : 06 82 03 76 08
-    
-    E-mail : mooremichaelrr\@gmail.com
   ]
 )
 

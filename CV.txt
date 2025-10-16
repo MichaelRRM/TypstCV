@@ -142,8 +142,8 @@
       #v(0.5em)
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[La Banque Postale ASSET MANAGEMENT]
-      - Projet Data Hub (Tech Lead)
-      - Projet ISR (Tech Lead)
+      - Refonte du SI Front-to-back (Tech Lead)
+      - Refonte Plateforme ISR (Tech Lead)
       
       #v(0.5em)
       
@@ -210,7 +210,7 @@ Dans le cade du rapprochement avec Ostrum et de la migration vers leur outils OM
 
 Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 - Cadrage des développements, accompagnement des équipes, validation technique des livrables
-- Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
+- Pilotage du recrutement de plus de 15 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
 
 #v(0.5em)

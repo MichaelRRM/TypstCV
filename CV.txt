@@ -4,7 +4,7 @@
 
 #set text(
   font: "Libertinus Sans",
-  size: 9.5pt,
+  size: 11pt,
   fill: rgb("#5B6FA8")
 )
 
@@ -68,27 +68,27 @@
   )
 ]
 
-#v(0.8em)
+#v(1.8em)
 
 // Subtitle - make it more visible
 #align(center)[
-  #text(size: 13pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
+  #text(size: 14pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
     Expert technique doté d'un background en finance de marché et avec un historique éprouvé \
     de succès sur des projets critiques
   ]
 ]
 
-#v(1.2em)
+#v(2.2em)
 
 // Two column layout for main content
 #grid(
-  columns: (55%, 45%),
+  columns: (53%, 47%),
   gutter: 15pt,
   
   // LEFT COLUMN
   [
     // Technical Skills
-    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
+    #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
     #v(0.4em)
     
     *Architecture & Design:* Conception d'architectures applicatives modulaires, modélisation d'APIs REST, conception de bases de données relationnelles, structuration logique du code
@@ -110,7 +110,7 @@
     #v(0.8em)
     
     // Financial Skills
-    #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
+    #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
     #v(0.4em)
     
     *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)

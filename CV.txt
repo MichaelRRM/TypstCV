@@ -220,6 +220,10 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
 - Modernisation technique et amélioration des performances
 
+#v(0.5em)
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 19, SQL Server, ElasticSearch, Azure DevOps, Git]
+#v(0.3em)
+
 #v(1.5em)
 
 #align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
@@ -235,6 +239,11 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Définition et implémentation des modules applicatifs et des flux de données
 - Sélection et mise en œuvre des briques d'infrastructure et des technologies associées
 - Développement personnel des composants socles réutilisables (modèles de données, services d'accès, API internes)
+
+
+#v(0.5em)
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 17, SQL Server, TeamCity, Git]
+#v(0.3em)
 
 #v(1.5em)
 
@@ -270,6 +279,10 @@ Dans le contexte de la migration des systèmes centraux de trading et de positio
 Création d'une nouvelle application permettant aux gérants multi-asset d'optimiser automatiquement leurs portefeuilles avec des outils quant
 - Architecture de la solution en collaboration avec les équipes Quant
 - Design et implémentation des premiers écrans (Full-stack Dotnet Core / Angular 2)
+
+#v(0.5em)
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, ASP.NET Core 3.1, Angular 11, Sql Server, Powershell, Azure DevOps, ELK, SonarQube]
+#v(0.3em)
 
 #v(1.5em)
 

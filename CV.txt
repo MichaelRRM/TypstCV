@@ -72,7 +72,7 @@
 
 // Subtitle - make it more visible
 #align(center)[
-  #text(size: 10pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
+  #text(size: 13pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
     Expert technique doté d'un background en finance de marché et avec un historique éprouvé \
     de succès sur des projets critiques
   ]
@@ -82,7 +82,7 @@
 
 // Two column layout for main content
 #grid(
-  columns: (47%, 53%),
+  columns: (55%, 45%),
   gutter: 15pt,
   
   // LEFT COLUMN
@@ -114,14 +114,14 @@
     #v(0.4em)
     
     *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)
+        
+    *Produits Financiers:* actions, obligations, dérivés listés (options, futures)
+    
+    *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
     
     *ESG & Réglementation:* Intégration des critères ESG, conformité aux normes ISR (Label français), SFDR (UE), gestion des données extra-financières
     
     *Référentiels & Données:* Conception et gouvernance de data hubs métier (produits, portefeuilles, instruments)
-    
-    *Produits Financiers:* actions, obligations, dérivés listés (options, futures)
-    
-    *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
     
     *Outils Métier:* Bloomberg, BlackRock Aladdin
   ],

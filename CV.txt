@@ -112,14 +112,18 @@
     // Financial Skills
     #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
     #v(0.4em)
-    
-    *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)
         
-    *Produits Financiers:* actions, obligations, dérivés listés (options, futures)
+    *Produits Equity:* Options (« Grecques », volatilité, skew, structure à terme, risques), Futures, Warrants, Cash Equity
+
+    *Produits Crédit:* CDS, Obligations
+
+    *Gestion d'Actifs:* Référentiels de fonds et mandats (produits, portefeuilles)
     
     *Gestion des Risques:* Expositions, sensibilités, VAR, scénarios de stress
     
     *Outils Métier:* Bloomberg, BlackRock Aladdin
+    
+    *ESG & Réglementation:* Intégration des critères ESG, conformité aux normes ISR (Label français), SFDR (UE), gestion des données extra-financières
   ],
   
   // RIGHT COLUMN - One unified blue background box

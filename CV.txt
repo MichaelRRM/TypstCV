@@ -96,6 +96,8 @@
     *Frameworks .NET:* .ASP.NET Core, Entity Framework, WCF, VSTO
 
     *Frameworks JS:* Angular, rxjs, Redux (ngrx) 
+
+    *Scripting:* SQL, VBA, Powershell, Python, Javascript
     
     *Base de Données:* SQL Server, ElasticSearch. Modélisation, optimisation, stratégie d'indexation
     
@@ -146,7 +148,7 @@
       #v(0.5em)
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[BNP Paribas ASSET MANAGEMENT]
-      - Projet New Data Referential (Tech Lead)
+      - Nouveau référentiel de Portefeuilles et Produits (Tech Lead)
       - Migration BlackRock Aladdin
       
       #v(0.8em)

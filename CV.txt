@@ -211,6 +211,7 @@ Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 - Accompagnement des équipes, validation technique des livrables (PR reviews)
 - Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
+- Intégration de l’IA dans les processus de développement (documentation, approche agentique, bonnes pratiques)
 
 #v(0.5em)
 

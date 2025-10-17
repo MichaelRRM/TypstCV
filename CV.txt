@@ -288,6 +288,7 @@ Création et migration vers un nouveau référentiel de donnée in-house (produi
 - Conception de la stratégie de migration
 - Conception et implémentation (full-stack) d'écrans consultés par 800 utilisateurs
 - Coordination des développements et leader technique dans une équipe de 10 personnes
+- Projet DevOps : Automatisation des pipelines CI/CD de la plateforme
 
 #v(0.9em)
 
@@ -311,11 +312,11 @@ Création d'une nouvelle application permettant aux gérants multi-asset d'optim
 #v(0.6em)
 #text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, ASP.NET Core 3.1, Angular 11, Sql Server, Powershell, Azure DevOps, ELK, SonarQube]
 
-#v(1.7em)
+#v(1em)
 
 #align(center)[#text(fill: rgb("#C5D0E0"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
 
-#v(2em)
+#v(1em)
 
 // Section header with line
 #grid(

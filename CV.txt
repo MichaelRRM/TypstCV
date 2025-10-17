@@ -128,7 +128,7 @@
     
     *Produits Crédit :* CDS, obligations.
     
-    *Gestion d’Actifs :* Référentiels de fonds et mandats (produits, portefeuilles)
+    *Gestion d'Actifs :* Référentiels de fonds et mandats (produits, portefeuilles)
     
     *ESG & Réglementation :* Intégration des critères ESG, conformité ISR (Label français) et SFDR (UE), gestion des données extra-financières.
     
@@ -191,17 +191,27 @@
 #pagebreak()
 
 // PAGE 2
-#v(1em)
+#v(1.5em)
 
-#text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[MISSIONS CLÉS]
+// Section header with line
+#grid(
+  columns: (auto, 1fr),
+  gutter: 10pt,
+  align: (left, horizon),
+  text(size: 15pt, weight: "bold", fill: rgb("#2C3E50"))[MISSIONS CLÉS],
+  line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
+)
+
+#v(1.5em)
+
+// Company name - larger and darker
+#text(weight: "bold", fill: black, size: 14pt)[La Banque Postale Asset Management]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (Septembre 2021 - Aujourd'hui)]
 #v(0.8em)
 
-#v(1em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[La Banque Postale Asset Management (Septembre 2021 - Aujourd'hui)]
-#v(0.3em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
+// Role title - medium hierarchy
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
+#v(0.5em)
 
 Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
@@ -211,19 +221,21 @@ Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils 
 - Design d'un Data Mart et d'un outil de contrôle
 - Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
 
-#v(0.5em)
+#v(0.8em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[LEADER TECHNIQUE EQUIPE DE DEVELOPPEMENT]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[LEADER TECHNIQUE EQUIPE DE DEVELOPPEMENT]
+#v(0.5em)
 
 Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 - Accompagnement des équipes, validation technique des livrables (PR reviews)
 - Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
-- Intégration de l’IA dans les processus de développement (documentation, approche agentique, bonnes pratiques)
+- Intégration de l'IA dans les processus de développement (documentation, approche agentique, bonnes pratiques)
 
+#v(0.8em)
+
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD PROJET ISR]
 #v(0.5em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET ISR]
 
 Refonte de l'outil stratégique d'analyse ISR:
 - Refonte complète de l'architecture applicative : interactions back-end / front-end, découplage des couches
@@ -232,20 +244,21 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
 - Intégration des évolutions du Label ISR 3 et du modèle quantitatif propriétaire
 
+#v(0.6em)
+#text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]
+
+#v(1em)
+
+#align(center)[#text(fill: rgb("#C5D0E0"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
+
+#v(1em)
+
+#text(weight: "bold", fill: black, size: 14pt)[Mirova]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (2025 - intervention en parallèle)]
+#v(0.8em)
+
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
 #v(0.5em)
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]
-#v(0.3em)
-
-#v(1.5em)
-
-#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
-
-#v(1.5em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (2025 - intervention en parallèle)]
-#v(0.3em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
 
 Définition et implémentation des socles techniques fondamentaux pour les nouveaux projets (DataHub, Projet IA/RAG, Reporting Private Equity & Loans):
 - Infrastructure applicative (APIs REST avec documentation OpenAPI, plateforme Batch/ETL avec orchestration et scheduling, pipelines CI/CD automatisés)
@@ -253,22 +266,21 @@ Définition et implémentation des socles techniques fondamentaux pour les nouve
 - Mise en place du framework front-end (Angular avec Tailwind) et développement des premiers écrans
 - Audit, monitoring (traçabilité des données, logs, visualisation) et sécurité (authentification, autorisation)
 
+#v(0.6em)
+#text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, .NET 8, Angular 17, SQL Server, TeamCity, XlDeploy, Git]
 
+#v(1.7em)
 
+#align(center)[#text(fill: rgb("#C5D0E0"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
+
+#v(2em)
+
+#text(weight: "bold", fill: black, size: 14pt)[BNP Paribas Asset Management]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (Novembre 2016 - Septembre 2021)]
+#v(0.8em)
+
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
 #v(0.5em)
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 17, SQL Server, TeamCity, XlDeploy, Git]
-#v(0.3em)
-
-#v(1.5em)
-
-#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
-
-#v(1.5em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[BNP Paribas Asset Management (Novembre 2016 - Septembre 2021)]
-#v(0.3em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
 
 Création et migration vers un nouveau référentiel de donnée in-house (produits, portefeuilles)
 - Architecture et chiffrage du projet
@@ -277,54 +289,71 @@ Création et migration vers un nouveau référentiel de donnée in-house (produi
 - Conception et implémentation (full-stack) d'écrans consultés par 800 utilisateurs
 - Coordination des développements et leader technique dans une équipe de 10 personnes
 
-#v(0.5em)
+#v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[PROJET CONVERGENCE / BLACKROCK ALADDIN (2018-2019)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[PROJET CONVERGENCE / BLACKROCK ALADDIN (2018-2019)]
+#v(0.5em)
 
 Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la platforme Aladdin de BlackRock, migration de 4 applications front-office :
 - Migration des jobs d'import de données sources
 - Développement des interfaces avec l'API d'Aladdin
 - Etablissement des process target avec les équipes de gestion et de risk management
 
-#v(0.5em)
+#v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD APPLICATION QUANTA (2018)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD APPLICATION QUANTA (2018)]
+#v(0.5em)
 
 Création d'une nouvelle application permettant aux gérants multi-asset d'optimiser automatiquement leurs portefeuilles avec des outils quant
 - Architecture de la solution en collaboration avec les équipes Quant
 - Design et implémentation des premiers écrans (Full-stack Dotnet Core / Angular 2)
 
-#v(0.5em)
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, ASP.NET Core 3.1, Angular 11, Sql Server, Powershell, Azure DevOps, ELK, SonarQube]
-#v(0.3em)
+#v(0.6em)
+#text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, ASP.NET Core 3.1, Angular 11, Sql Server, Powershell, Azure DevOps, ELK, SonarQube]
+
+#v(1.7em)
+
+#align(center)[#text(fill: rgb("#C5D0E0"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
+
+#v(2em)
+
+// Section header with line
+#grid(
+  columns: (auto, 1fr),
+  gutter: 10pt,
+  align: (left, horizon),
+  text(size: 15pt, weight: "bold", fill: rgb("#2C3E50"))[AUTRES EXPÉRIENCES],
+  line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
+)
 
 #v(1.5em)
 
-#align(center)[#text(fill: rgb("#5B73B8"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
-
-#v(1.5em)
-
-#text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[AUTRES EXPERIENCES]
-#v(0.8em)
-
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[MONTPENSIER FINANCE – PARIS (2014): ASSISTANT GÉRANT]
+#text(weight: "bold", fill: black, size: 11pt)[MONTPENSIER FINANCE – PARIS]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (2014): ASSISTANT GÉRANT]
+#v(0.4em)
 
 - Prise en charge des opérations sur le cash equity, produits dérivés, opérations de change
 
-#v(0.5em)
+#v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[OTCEX –HONG KONG (2013): JUNIOR BROKER OPTIONS]
+#text(weight: "bold", fill: black, size: 11pt)[OTCEX – HONG KONG]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (2013): JUNIOR BROKER OPTIONS]
+#v(0.4em)
 
 - Développement d'outils pour les brokers (pricer d'options, analyse de liquidité...)
 
-#v(0.5em)
+#v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[AXA IM - PARIS (2012) : ASSISTANT TRADER]
+#text(weight: "bold", fill: black, size: 11pt)[AXA IM - PARIS]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (2012) : ASSISTANT TRADER]
+#v(0.4em)
 
 - Développement de divers outils pour les tables de négociation (Pricer CDS, reporting...)
 
-#v(0.5em)
+#v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[INGENSOMA TRADING GROUP - SEOUL (2011): JUNIOR TRADER OPTIONS]
+#text(weight: "bold", fill: black, size: 11pt)[INGENSOMA TRADING GROUP - SEOUL]
+#text(fill: rgb("#5B6FA8"), size: 10pt)[ (2011): JUNIOR TRADER OPTIONS]
+#v(0.4em)
 
 - Arbitrage de volatilité sur les options KOSPI, développement d'une stratégie d'arbitrage sur les warrants, production de quotes (bid ask) pour les contreparties

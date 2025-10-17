@@ -237,10 +237,12 @@ Refonte de l'outil stratégique d'analyse ISR:
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
 
-- Conception et développement d'une architecture technique évolutive pour les projets à venir (DataHub, DataMart, projets d'IA)
-- Définition et implémentation des modules applicatifs et des flux de données
-- Sélection et mise en œuvre des briques d'infrastructure et des technologies associées
-- Développement personnel des composants socles réutilisables (modèles de données, services d'accès, API internes)
+Définition et implémentation des socles techniques fondamentaux :
+- Infrastructure applicative (APIs REST avec documentation OpenAPI, plateforme Batch/ETL avec orchestration et scheduling, pipelines CI/CD automatisés)
+- Couche d'accès aux données avec abstractions, gestion centralisée des connexions et migrations de schéma
+- Mise en place du framework front-end (Angular avec Tailwind) et développement des premiers écrans
+- Audit, monitoring (traçabilité des données, logs, visualisation) et sécurité (authentification, autorisation)
+
 
 
 #v(0.5em)

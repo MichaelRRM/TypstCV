@@ -234,12 +234,12 @@ Refonte de l'outil stratégique d'analyse ISR:
 
 #v(1.5em)
 
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (Janvier 2025 - Aujourd'hui - intervention en parallèle)]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 13.5pt)[Mirova (2025 - intervention en parallèle)]
 #v(0.3em)
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[ARCHITECTE DU NOUVEAU SOCLE APPLICATIF]
 
-Définition et implémentation des socles techniques fondamentaux :
+Définition et implémentation des socles techniques fondamentaux pour les nouveaux projets (DataHub, Projet IA/RAG, Reporting Private Equity & Loans):
 - Infrastructure applicative (APIs REST avec documentation OpenAPI, plateforme Batch/ETL avec orchestration et scheduling, pipelines CI/CD automatisés)
 - Couche d'accès aux données avec abstractions, gestion centralisée des connexions et migrations de schéma
 - Mise en place du framework front-end (Angular avec Tailwind) et développement des premiers écrans

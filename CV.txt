@@ -208,7 +208,7 @@ Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[LEADER TECHNIQUE EQUIPE DE DEVELOPPEMENT]
 
 Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
-- Cadrage des développements, accompagnement des équipes, validation technique des livrables
+- Accompagnement des équipes, validation technique des livrables (PR reviews)
 - Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
 

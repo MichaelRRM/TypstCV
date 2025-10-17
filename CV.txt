@@ -195,11 +195,11 @@
 
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
 
-Dans le cadre du rapprochement avec Ostrum et de la migration vers leur outils OMS/PMS:
+Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
-- Conception et implémentation d'une couche d'accès fluide pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
+- Conception et implémentation d'une couche d'accès (fluent API) pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
 - Design et implémentation des flux de données
-- Conception et implémentation des APIs
+- Conception et implémentation des APIs REST
 - Design d'un Data Mart et d'un outil de contrôle
 - Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
 

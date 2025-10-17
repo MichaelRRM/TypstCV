@@ -218,9 +218,10 @@ Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 
 Refonte de l'outil stratégique d'analyse ISR:
 - Refonte complète de l'architecture applicative : interactions back-end / front-end, découplage des couches
+- Développement d'un système configurable de contraintes, indicateurs et points de référence, traitant les données à la volée (incluant positions transparisées) avec optimisation des performances
+- Développement d'un système d'audit (front/back) permettant de tracer et visualiser les résultats de calculs complexes
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
-- Modernisation technique et amélioration des performances
-
+- Intégration des évolutions du Label ISR 3 et du modèle quantitatif propriétaire
 
 #v(0.5em)
 #text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]

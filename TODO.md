@@ -1,5 +1,5 @@
--skipped defacto/excel
--BNP could be longer
--header is just bad
--right part background should go lower
--english
+- skipped defacto/excel
+- BNP could be longer
+- header is just bad
+- right part background should go lower
+- english

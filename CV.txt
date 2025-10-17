@@ -93,9 +93,9 @@
     
     *Langages:* C\#, Typescript
 
-    *Frameworks .NET:* .ASP.NET Core, Entity Framework, WCF, VSTO
+    *Frameworks .NET:* .ASP.NET Core, Entity Framework, WCF, VSTO, SignalR
 
-    *Frameworks JS:* Angular, rxjs, Redux (ngrx) 
+    *Frameworks Front:* Angular, rxjs, Redux (ngrx), Tailwind
 
     *Scripting:* SQL, VBA, Powershell, Python, Javascript
     
@@ -197,10 +197,11 @@
 
 Dans le cade du rapprochement avec Ostrum et de la migration vers leur outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
-- Design des flux de données
-- Conception des APIs
+- Design et implémentation des flux de données
+- Refonte des couches d'accès aux bases de données
+- Conception et implémentation des APIs
 - Design d'un Data Mart et d'un outil de contrôle
-- Design et implémentation d'écrans de visualisation et de recherche de données
+- Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
 
 #v(0.5em)
 
@@ -208,7 +209,7 @@ Dans le cade du rapprochement avec Ostrum et de la migration vers leur outils OM
 
 Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 - Cadrage des développements, accompagnement des équipes, validation technique des livrables
-- Pilotage du recrutement de plus de 15 développeurs (profils back, front, fullstack)
+- Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
 
 #v(0.5em)
@@ -220,8 +221,9 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
 - Modernisation technique et amélioration des performances
 
+
 #v(0.5em)
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 19, SQL Server, ElasticSearch, Azure DevOps, Git]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]
 #v(0.3em)
 
 #v(1.5em)
@@ -242,7 +244,7 @@ Refonte de l'outil stratégique d'analyse ISR:
 
 
 #v(0.5em)
-#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 17, SQL Server, TeamCity, Git]
+#text(weight: "bold", fill: rgb("#5B6FA8"), size: 9pt)[Technologies : C\#, .NET 8, Angular 17, SQL Server, TeamCity, XlDeploy, Git]
 #v(0.3em)
 
 #v(1.5em)

@@ -1,0 +1,2 @@
+-skipped defacto/excel
+-BNP could be longer

@@ -146,7 +146,7 @@
       #v(0.5em)
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[BNP Paribas ASSET MANAGEMENT]
-      - Nouveau référentiel de Portefeuilles et Produits (Tech Lead)
+      - Nouveau référentiel Portefeuilles/Produits (Tech Lead)
       - Migration BlackRock Aladdin
       
       #v(0.8em)

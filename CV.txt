@@ -243,15 +243,16 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Développement d'un système d'audit (front/back) permettant de tracer et visualiser les résultats de calculs complexes
 - Redéfinition des APIs métier et des modèles de données pour intégrer les critères ESG
 - Intégration des évolutions du Label ISR 3 et du modèle quantitatif propriétaire
+- Nouveau Dashboard ESG configurable (widgets), permettant une analyse en temps réel des portefeuilles
 
 #v(0.6em)
 #text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]
 
-#v(1em)
+#v(0.5em)
 
 #align(center)[#text(fill: rgb("#C5D0E0"), size: 14pt)[• • • • • • • • • • • • • • • • • •]]
 
-#v(1em)
+#v(0.5em)
 
 #text(weight: "bold", fill: black, size: 14pt)[Mirova]
 #text(fill: rgb("#5B6FA8"), size: 10pt)[ (2025 - intervention en parallèle)]

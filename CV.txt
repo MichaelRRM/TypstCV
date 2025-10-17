@@ -51,20 +51,28 @@
       ]
     ],
     
-    // Right side - Photo placeholder
-    [
-      #v(10pt)
-      #align(right)[
-        #circle(
-          radius: 70pt,
-          fill: rgb("#5B73B8"),
-          stroke: 3pt + white,
-          [#align(center + horizon)[
-            #text(fill: white, size: 11pt)[PHOTO]
-          ]]
+// Right side - Photo
+[
+  #v(10pt)
+  #align(right)[
+    #box(
+      radius: 72pt,
+      fill: white,
+      width: 144pt,
+      height: 144pt,
+    )[
+      #align(center + horizon)[
+        #box(
+          clip: true,
+          radius: 68pt,
+          width: 136pt,
+          height: 136pt,
+          image("photoCV.png", width: 136pt, height: 136pt, fit: "cover")
         )
       ]
     ]
+  ]
+]
   )
 ]
 

@@ -193,7 +193,7 @@ Refonte de l'outil stratégique d'analyse ISR:
 - Refonte complète de l'architecture applicative : interactions back-end / front-end, découplage des couches
 - Développement d'un système configurable de contraintes, indicateurs et points de référence, traitant les données à la volée (incluant positions transparisées) avec optimisation des performances
 - Développement d'un système d'audit (front/back) permettant de tracer et visualiser les résultats de calculs complexes
-- Intégration des évolutions du Label ISR 3 et du modèle quantitatif propriétaire
+- Intégration des évolutions du Label ISR V3 et du modèle quantitatif propriétaire
 - Nouveau Dashboard ESG configurable (widgets), permettant une analyse en temps réel des portefeuilles 
 
 #v(0.6em)

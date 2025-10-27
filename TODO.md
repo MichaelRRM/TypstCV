@@ -3,3 +3,4 @@
 - header is just bad
 - right part background should go lower
 - english
+- oxygen: how many jobs, how many routes, how many tables...

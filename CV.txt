@@ -167,7 +167,7 @@
 
 Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
-- Conception et implémentation d'une couche d'accès (fluent API) pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
+- Conception et implémentation de la couche d'accès aux bases pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
 - Design et implémentation des flux de données
 - Conception et implémentation des APIs REST
 - Design d'un Data Mart et d'un outil de contrôle

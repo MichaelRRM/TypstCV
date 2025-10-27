@@ -21,68 +21,20 @@
   )
 }
 
-// Header with photo placeholder
+// Header with full-width image
 #block(
-  fill: rgb("#F5F7FA"),
   width: 100%,
-  inset: 0pt,
+  inset: -50pt,
+  outset: (left: 0cm, right: 1.5cm),
 )[
-  #grid(
-    columns: (1fr, 140pt),
-    gutter: 20pt,
-    
-    // Left side - Name and title
-    [
-      #block(
-        fill: rgb("#E3E9F3"),
-        width: 100%,
-        inset: (x: 20pt, y: 18pt, top: 25pt),
-        radius: (top-left: 0pt, bottom-right: 80pt),
-      )[
-        #text(size: 28pt, weight: "bold", fill: rgb("#5B73B8"))[MICHAEL MOORE]
-        
-        #v(0.5em)
-        
-        #line(length: 280pt, stroke: 3pt + rgb("#5B73B8"))
-        
-        #v(0.5em)
-        
-        #text(size: 11pt, fill: rgb("#5B73B8"))[Tech Lead IT/Finance de marché]
-      ]
-    ],
-    
-// Right side - Photo
-[
-  #v(10pt)
-  #align(right)[
-    #box(
-      radius: 72pt,
-      fill: white,
-      width: 144pt,
-      height: 144pt,
-    )[
-      #align(center + horizon)[
-        #box(
-          clip: true,
-          radius: 68pt,
-          width: 136pt,
-          height: 136pt,
-          image("photoCV.png", width: 136pt, height: 136pt, fit: "cover")
-        )
-      ]
-    ]
-  ]
-]
-  )
+  #image("header.png", width: 100%, fit: "stretch")
 ]
 
-#v(1.8em)
 
-// Subtitle - make it more visible
+#v(6.8em)
 #align(center)[
   #text(size: 14pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
-    Expert technique doté d'un background en finance de marché et avec un historique éprouvé \
-    de succès sur des projets critiques
+    Expert technique, notamment sur le stack .Net/Angular, doté d'un background en finance de marché et avec un historique éprouvé de succès sur des projets critiques
   ]
 ]
 

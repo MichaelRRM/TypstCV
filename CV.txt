@@ -244,7 +244,7 @@ Création et migration vers un nouveau référentiel de donnée in-house (produi
 
 #v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[PROJET CONVERGENCE / BLACKROCK ALADDIN (2018-2019)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[DEVELOPPEUR / BUSINESS ANALYST PROJET BLACKROCK ALADDIN (2018-2019)]
 #v(0.5em)
 
 Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la platforme Aladdin de BlackRock, migration de 4 applications front-office :

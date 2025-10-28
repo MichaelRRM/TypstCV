@@ -168,8 +168,8 @@
 Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
 - Conception et implémentation de la couche d'accès aux bases pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
-- Design et implémentation des flux de données
-- Conception et implémentation des APIs REST
+- Design et implémentation des flux de données (plus de 200 jobs)
+- Conception et implémentation des APIs REST à destination de l'ensemble des équipes métier et des applicatifs 
 - Design d'un Data Mart et d'un outil de contrôle
 - Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
 

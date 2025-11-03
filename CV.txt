@@ -124,10 +124,21 @@
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[ESLSCA Paris]
       - Master Finance de marché
+
+      #v(0.8em)
+      #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
+      #v(0.8em)
+      
+      // Languages
+      #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[LANGUES]
+      #v(0.5em)
+      
+      Bilingue Français - Anglais
       
       #v(0.8em)
       #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
       #v(0.8em)
+
       
       // Contact
       #text(size: 11pt, weight: "bold", fill: rgb("#2C3E50"))[COORDONNÉES]
@@ -168,7 +179,7 @@
 Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
 - Modélisation du nouveau référentiel central du SI LBPAM
 - Conception et implémentation de la couche d'accès aux bases pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
-- Design et implémentation des flux de données (plus de 200 jobs)
+- Design et implémentation des flux de données (plus de 300 jobs)
 - Conception et implémentation des APIs REST à destination de l'ensemble des équipes métier et des applicatifs 
 - Design d'un Data Mart et d'un outil de contrôle
 - Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
@@ -180,7 +191,7 @@ Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils 
 
 Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 - Accompagnement des équipes, validation technique des livrables (PR reviews)
-- Pilotage du recrutement de plus de 10 développeurs (profils back, front, fullstack)
+- Recrutement de plus de 10 développeurs (profils back, front, fullstack)
 - Modernisation du parc applicatif : migration vers .NET Core et Angular, refonte des bases techniques
 - Intégration de l'IA dans les processus de développement (documentation, approche agentique, bonnes pratiques)
 

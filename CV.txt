@@ -34,7 +34,7 @@
 #v(6.8em)
 #align(center)[
   #text(size: 14pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
-    Expert technique, notamment sur le stack .Net/Angular, doté d'un background en finance de marché et avec un historique éprouvé de succès sur des projets critiques
+    Tech Lead .NET/Angular alliant expertise technique et connaissance approfondie de la finance de marché
   ]
 ]
 

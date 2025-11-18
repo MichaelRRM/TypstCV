@@ -107,7 +107,7 @@
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[BNP Paribas ASSET MANAGEMENT]
       - Nouveau référentiel Portefeuilles/Produits (Tech Lead)
-      - Migration BlackRock Aladdin
+      - Migration BlackRock Aladdin (Business Analyst / Développeur)
       
       #v(0.8em)
       #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
@@ -245,7 +245,7 @@ Définition et implémentation des socles techniques fondamentaux pour les nouve
 #text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
 #v(0.5em)
 
-Création et migration vers un nouveau référentiel de donnée in-house (produits, portefeuilles)
+Création et migration vers un nouveau référentiel de données in-house (produits, portefeuilles)
 - Architecture et chiffrage du projet
 - Modélisation
 - Conception de la stratégie de migration
@@ -258,7 +258,7 @@ Création et migration vers un nouveau référentiel de donnée in-house (produi
 #text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[DEVELOPPEUR / BUSINESS ANALYST PROJET BLACKROCK ALADDIN (2018-2019)]
 #v(0.5em)
 
-Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la platforme Aladdin de BlackRock, migration de 4 applications front-office :
+Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la plateforme Aladdin de BlackRock, migration de 4 applications front-office :
 - Migration des jobs d'import de données sources
 - Développement des interfaces avec l'API d'Aladdin
 - Etablissement des process target avec les équipes de gestion et de risk management

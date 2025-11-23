@@ -30,11 +30,18 @@
   #image("header.png", width: 100%, fit: "stretch")
 ]
 
+// Subtitle directly below the header image
+#v(-3em)
+#align(left)[
+  #text(size: 20pt, fill: rgb("#677BAB"), weight: "regular")[
+    #h(-0.1cm)Business Analyst / Tech Lead Finance de marché
+  ]
+]
 
-#v(6.8em)
+#v(3em)
 #align(center)[
   #text(size: 14pt, fill: rgb("#5B73B8"), style: "italic", weight: "bold")[
-    Tech Lead .NET/Angular alliant expertise technique et connaissance approfondie de la finance de marché
+    Business Analyst et Tech Lead alliant analyse fonctionnelle, expertise technique et connaissance approfondie de la finance de marché
   ]
 ]
 
@@ -47,44 +54,54 @@
   
   // LEFT COLUMN
   [
-    // Technical Skills
-    #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
+    // Business Analyst Skills
+    #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES BUSINESS ANALYST]
     #v(0.4em)
     
-    *Langages:* C\#, Typescript
-
-    *Frameworks .NET:* .ASP.NET Core, Entity Framework, WCF, VSTO, SignalR
-
-    *Frameworks Front:* Angular, rxjs, Redux (ngrx), Tailwind
-
-    *Scripting:* SQL, VBA, Powershell, Python, Javascript
+    *Analyse & Conception:* Recueil des besoins métier, spécifications fonctionnelles, modélisation
     
-    *Base de Données:* SQL Server, ElasticSearch. Modélisation, optimisation, stratégie d'indexation
+    *Gestion de Projet:* Coordination équipes métier/IT, cadrage, chiffrage, pilotage
     
-    *Méthodologies:* Agile (Scrum Master), DDD, TDD
-    
-    *CI/CD & DevOps:* Azure DevOps, Git
+    *Méthodes:* Agile (Scrum Master)
     
     
-    #v(1.2em)
+    #v(1em)
     
     #line(length: 100%, stroke: 1pt + rgb("#D0D8E8"))
     
-    #v(0.8em)
+    #v(0.7em)
     
     // Financial Skills
     #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES FINANCIÈRES]
     #v(0.4em)
     
-    *Produits Equity :* Actions, options (« Grecques », volatilité, skew, structure à terme), futures, warrants — valorisation, expositions et gestion des risques.
+    *Produits Equity :* Actions, options (« Grecques », volatilité, skew), futures, warrants
     
-    *Produits Crédit :* CDS, obligations.
+    *Produits Crédit :* CDS, obligations
     
-    *Gestion d'Actifs :* Référentiels de fonds et mandats (produits, portefeuilles)
+    *Gestion d'Actifs :* Référentiels de fonds et mandats
     
-    *ESG & Réglementation :* Intégration des critères ESG, conformité ISR (Label français) et SFDR (UE), gestion des données extra-financières.
+    *ESG & Réglementation :* Critères ESG, ISR, SFDR
     
-    *Outils Métier :* Bloomberg, BlackRock Aladdin.
+    *Outils Métier :* Bloomberg, BlackRock Aladdin
+    
+    #v(1em)
+    
+    #line(length: 100%, stroke: 1pt + rgb("#D0D8E8"))
+    
+    #v(0.7em)
+    
+    // Technical Skills
+    #text(size: 13pt, weight: "bold", fill: rgb("#2C3E50"))[COMPÉTENCES TECHNIQUES]
+    #v(0.4em)
+    
+    *Langages:* C\#, Typescript, SQL, Python
+
+    *Frameworks:* .NET Core, Angular, Entity Framework
+    
+    *Bases de Données:* SQL Server, ElasticSearch. Modélisation, optimisation, stratégie d'indexation
+    
+    *Outils:* Azure DevOps, Git, JIRA
   ],
   
   // RIGHT COLUMN - One unified blue background box
@@ -100,14 +117,14 @@
       #v(0.5em)
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[La Banque Postale ASSET MANAGEMENT]
-      - Refonte du SI Front-to-back (Tech Lead)
-      - Refonte Plateforme ISR (Tech Lead)
+      - Refonte du SI Front-to-back (BA / Tech Lead)
+      - Refonte Plateforme ISR (BA / Tech Lead)
       
       #v(0.5em)
       
       #text(weight: "bold", fill: rgb("#5B73B8"))[BNP Paribas ASSET MANAGEMENT]
-      - Nouveau référentiel Portefeuilles/Produits (Tech Lead)
-      - Migration BlackRock Aladdin (Business Analyst / Développeur)
+      - Nouveau référentiel Portefeuilles/Produits (BA / Tech Lead)
+      - Migration BlackRock Aladdin (BA / Développeur)
       
       #v(0.8em)
       #line(length: 100%, stroke: 2pt + rgb("#5B73B8"))
@@ -173,15 +190,17 @@
 #v(0.8em)
 
 // Role title - medium hierarchy
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD PROJET DE MIGRATION OSTRUM]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[BUSINESS ANALYST / TECH LEAD PROJET DE MIGRATION OSTRUM]
 #v(0.5em)
 
 Dans le cadre du rapprochement avec Ostrum et de la migration vers leurs outils OMS/PMS:
+- Analyse des besoins métier et recueil des spécifications auprès des équipes de gestion, data et reporting
+- Cartographie et refonte des processus métier (flux de données, workflows opérationnels)
 - Modélisation du nouveau référentiel central du SI LBPAM
-- Conception et implémentation de la couche d'accès aux bases pour un modèle de données complexe, permettant des opérations de lecture/écriture intuitives et performantes
-- Design et implémentation des flux de données (plus de 300 jobs)
-- Conception et implémentation des APIs REST à destination de l'ensemble des équipes métier et des applicatifs 
 - Design d'un Data Mart et d'un outil de contrôle
+- Conception et implémentation des APIs REST à destination de l'ensemble des équipes métier et des applicatifs 
+- Design et implémentation des flux de données (plus de 300 jobs)
+- Conception et implémentation de la couche d'accès aux bases pour un modèle de données complexe
 - Design et implémentation d'écrans de recherche (Elasticsearch) et visualisation de données
 
 #v(0.8em)
@@ -197,15 +216,19 @@ Cadrage des développements dans une équipe allant jusqu'à 20 développeurs
 
 #v(1em)
 
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD PROJET ISR]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[BUSINESS ANALYST / TECH LEAD PROJET ISR]
 #v(1em)
 
 Refonte de l'outil stratégique d'analyse ISR:
+- Analyse approfondie des besoins des équipes de gestion ISR et du département Analyse Extra-Financière
+- Traduction des exigences réglementaires (Label ISR V3, SFDR) en spécifications fonctionnelles
+- Modélisation des processus d'analyse ESG et définition des règles métier (contraintes, indicateurs, scoring)
+- Documentation fonctionnelle complète du système de contraintes configurables et des points de référence
+- Conception du nouveau Dashboard ESG configurable en collaboration avec les analystes
 - Refonte complète de l'architecture applicative : interactions back-end / front-end, découplage des couches
-- Développement d'un système configurable de contraintes, indicateurs et points de référence, traitant les données à la volée (incluant positions transparisées) avec optimisation des performances
+- Développement d'un système configurable de contraintes, indicateurs et points de référence, traitant les données à la volée (incluant positions transparisées)
 - Développement d'un système d'audit (front/back) permettant de tracer et visualiser les résultats de calculs complexes
-- Intégration des évolutions du Label ISR V3 et du modèle quantitatif propriétaire
-- Nouveau Dashboard ESG configurable (widgets), permettant une analyse en temps réel des portefeuilles 
+- Intégration des évolutions du Label ISR V3 et du modèle quantitatif propriétaire 
 
 #v(0.6em)
 #text(weight: "bold", fill: rgb("#6B7C92"), size: 10pt, style: "italic")[Technologies : C\#, .NET 8, Angular 19, SQL Server, Elasticsearch, Azure DevOps, Git]
@@ -242,33 +265,41 @@ Définition et implémentation des socles techniques fondamentaux pour les nouve
 #text(fill: rgb("#5B6FA8"), size: 10pt)[ (Novembre 2016 - Septembre 2021)]
 #v(0.8em)
 
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD NEW REFERENTIAL (2019-2021)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[BUSINESS ANALYST / TECH LEAD NEW REFERENTIAL (2019-2021)]
 #v(0.5em)
 
 Création et migration vers un nouveau référentiel de données in-house (produits, portefeuilles)
+- Recueil et analyse des besoins métier auprès de 800 utilisateurs (gestion, middle-office, risk)
+- Modélisation fonctionnelle du référentiel (produits, portefeuilles, référentiels de marché)
+- Rédaction des spécifications fonctionnelles et techniques
 - Architecture et chiffrage du projet
-- Modélisation
-- Conception de la stratégie de migration
+- Conception de la stratégie de migration et plan de transition
 - Conception et implémentation (full-stack) d'écrans consultés par 800 utilisateurs
 - Coordination des développements et leader technique dans une équipe de 10 personnes
 - Projet DevOps : Automatisation des pipelines CI/CD de la plateforme
 
 #v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[DEVELOPPEUR / BUSINESS ANALYST PROJET BLACKROCK ALADDIN (2018-2019)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[BUSINESS ANALYST / DEVELOPPEUR PROJET BLACKROCK ALADDIN (2018-2019)]
 #v(0.5em)
 
 Dans le contexte de la migration des systèmes centraux de trading et de position keeping vers la plateforme Aladdin de BlackRock, migration de 4 applications front-office :
+- Etablissement des process target avec les équipes de gestion et de risk management
+- Rédaction des spécifications pour l'intégration avec Aladdin
+- Animation d'ateliers avec les gérants pour valider les nouveaux workflows
 - Migration des jobs d'import de données sources
 - Développement des interfaces avec l'API d'Aladdin
-- Etablissement des process target avec les équipes de gestion et de risk management
+- Conduite du changement et formation des utilisateurs
 
 #v(0.9em)
 
-#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[TECH LEAD APPLICATION QUANTA (2018)]
+#text(weight: "bold", fill: rgb("#5B73B8"), size: 11.5pt)[BUSINESS ANALYST / TECH LEAD APPLICATION QUANTA (2018)]
 #v(0.5em)
 
 Création d'une nouvelle application permettant aux gérants multi-asset d'optimiser automatiquement leurs portefeuilles avec des outils quant
+- Analyse des besoins des gérants multi-asset et des équipes quantitatives
+- Définition des spécifications fonctionnelles du moteur d'optimisation de portefeuille
+- Modélisation des workflows d'optimisation et des contraintes métier
 - Architecture de la solution en collaboration avec les équipes Quant
 - Design et implémentation des premiers écrans (Full-stack Dotnet Core / Angular 2)
 
